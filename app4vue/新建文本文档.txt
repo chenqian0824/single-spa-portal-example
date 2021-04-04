@@ -1,0 +1,4 @@
+UI: https://element.eleme.cn/#/zh-CN/guide/design   https://www.antdv.com/docs/vue/use-with-vue-cli-cn/
+
+
+疑问： ui组件在单独项目里面生效，在singe-spa中不生效

@@ -19,7 +19,22 @@ module.exports = {
 				test: /\.js?$/,
 				exclude: [path.resolve(__dirname, 'node_modules')],
 				loader: 'babel-loader',
-			}
+            },
+            {
+                test: /\.css$/,
+                use: ["style-loader", "css-loader"],
+            },
+            {
+                test: /\.(png|jpg|gif|svg)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            publicPath: '/app1/',
+                        }
+                    }
+                ]
+            }
 		],
 	},
 	node: {
