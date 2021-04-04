@@ -2,6 +2,8 @@ import React from 'react';
 import {Provider, connect} from 'react-redux';
 import Counter from './counter';
 import reactLogo from '../assets/react-logo.png'
+import 'antd/dist/antd.css';
+import './style/style.css'
 
 
 export default class Root extends React.Component {
